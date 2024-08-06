@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "workshops.html",
-    "href": "workshops.html",
-    "title": "Workshops Attended",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My Personal Webpage",
     "section": "",
-    "text": "2024\n\nAdvanced Tools for Literate Programming and Machine Learning, August 6-7, 2024"
+    "text": "Welcome to my personal page! I thrive on solving complex problems and love turning innovative ideas into reality. Whether I’m coding, designing, or exploring new fields, I bring dedication and curiosity to everything I do. Outside of work, I enjoy hiking, reading science fiction, and experimenting with new recipes. Here, you’ll find insights into my projects, interests, and the journey I’m on to make a positive impact in the world. Thank you for visiting, and I hope you find something that inspires you!\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "blog.html",
@@ -21,10 +21,17 @@
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Workshops Attended",
+    "section": "",
+    "text": "2024\n\nAdvanced Tools for Literate Programming and Machine Learning, August 6-7, 2024"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I’m a second year Computer Science and Engineering student doing minor in Computational Mathematics with a passion for pushing the boundaries of knowledge in AI. With a strong background in Computer Science, my research focuses on Practive Oriented AI, aiming to contribute to meaningful advancements and solutions."
+    "text": "I am Angela Mary Thomas a second-year Computer Science engineering student with a passion for exploring new technologies and trying new things. My curiosity drives me to stay updated with the latest advancements in the tech world, and I enjoy experimenting with different tools and platforms to enhance my skills. Whether it’s diving into a new programming language, tinkering with hardware, or exploring cutting-edge software, I am always eager to learn and grow in the ever-evolving field of technology."
   }
 ]
